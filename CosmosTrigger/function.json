@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "codellion_DOCUMENTDB",
+      "databaseName": "admin",
+      "collectionName": "Recipes",
+      "createLeaseCollectionIfNotExists": "true"
+    }
+  ]
+}
